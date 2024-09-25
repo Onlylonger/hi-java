@@ -4,14 +4,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.xiaokiki</groupId>
-    <artifactId>hi-java</artifactId>
-    <version>1.0</version>
-    <packaging>pom</packaging>
+    <artifactId>json</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+    </properties>
 
-    <modules>
-        <module>json</module>
-        <module>admin-api</module>
-    </modules>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
